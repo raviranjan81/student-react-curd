@@ -5,7 +5,8 @@ import useSWR, { mutate } from "swr";
 import { FaSpinner } from "react-icons/fa";
 import fetcher from "../utils/fetcher";
 
-axios.defaults.baseURL = "http://localhost:8080/api/v1/students";
+// axios.defaults.baseURL = "http://localhost:8080/api/v1/students";
+axios.defaults.baseURL =  'https://student-curd-api-y9yw.onrender.com/api/v1/students';
 
 const Student = () => {
   const {
